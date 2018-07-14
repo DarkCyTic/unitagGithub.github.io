@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <title>UniTag</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+        <!-- CSS - Frameworks -->
+
+        <!-- CSS Bootstrap -->
+        <link rel="stylesheet" href="frameworks/css/bootstrap.css">
+        <!-- CSS MDBootstrap -->
+        <link rel="stylesheet" href="frameworks/css/mdb.css">
+        <!-- CSS FontAwesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+        <!-- CSS - Custom -->
+
+        <!-- Universal -->
+
+        <!-- Navigation -->
+        <link rel="stylesheet" href="universal/navigation/css/navigation.css">
+        <!-- Headers -->
+        <link rel="stylesheet" href="universal/headers/css/headers.css">
+        <!-- Buttons -->
+        <link rel="stylesheet" href="universal/buttons/css/cool-button.css">
+        <link rel="stylesheet" href="universal/buttons/css/social-button.css">
+        <!-- Form -->
+        <link rel="stylesheet" href="universal/form/css/form-validation.css">
+
+        <!-- Components -->
+
+        <!-- CSS home-section -->
+        <link rel="stylesheet" href="components/home-section/css/home.css">
+        <!-- CSS event-essentials-section -->
+        <link rel="stylesheet" href="components/event-essentials-section/css/event-essentials.css">
+        <!-- CSS countdown-section -->
+        <link rel="stylesheet" href="components/countdown-section/css/countdown.css">
+        <!-- CSS event-description-section -->
+        <link rel="stylesheet" href="components/event-description-section/css/event-description.css">
+        <!-- CSS speakers-section -->
+        <link rel="stylesheet" href="components/speakers-section/css/speakers.css">
+        <!-- CSS partners-section -->
+        <link rel="stylesheet" href="components/partners-section/css/partners.css">
+        <!-- CSS partners-section -->
+        <link rel="stylesheet" href="components/contact-section/css/contact.css">
+
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+
+    <body id="body2">
+
+        <!-- JS Frameworks -->
+
+        <!-- jQuery js -->
+        <script src="frameworks/js/jquery.min.js"></script>
+        <!-- Popper js -->
+        <script src="frameworks/js/popper.min.js"></script>
+        <!-- Bootstrap js -->
+        <script src="frameworks/js/bootstrap.min.js"></script>
+        <!-- MDBootstrap js -->
+        <script src="frameworks/js/mdb.min.js"></script>
+
+
+        <!-- JS - Custom -->
+
+        <!-- Universal -->
+
+        <!-- Form -->
+        <script src="universal/form/js/form-validation.js"></script>
+        <!-- Navigation -->
+        <script src="universal/navigation/js/navigation-controller.js"></script>
+        <script src="universal/navigation/js/navigation-directive.js"></script>
+        <!-- Smooth Link Scrolling -->
+        <script src="universal/smooth-link-scrolling/js/smooth-link-scrolling-controller.js"></script>
+        <script src="universal/smooth-link-scrolling/js/smooth-link-scrolling-directive.js"></script>
+
+        <!-- Components -->
+
+        <!-- JS countdown-section -->
+        <script src="components/countdown-section/js/countdown-controller.js"></script>
+        <script src="components/countdown-section/js/countdown-directive.js"></script>
+        <!-- JS registration-section -->
+        <script src="components/registration-section/js/registration-controller.js"></script>
+        <script src="components/registration-section/js/registration-directive.js"></script>
+        <script src="components/registration-section/js/registration-service.js"></script>
+        <!-- JS partners-section -->
+        <script src="components/partners-section/js/partners-controller.js"></script>
+        <script src="components/partners-section/js/partners-directive.js"></script>
+        <!-- JS contact-section -->
+        <script src="components/contact-section/js/contact-controller.js"></script>
+        <script src="components/contact-section/js/contact-directive.js"></script>
+        <script src="components/contact-section/js/contact-service.js"></script>
+
+        <!-- website-init -->
+        <script src="/website-init.js"></script>
+
+        <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#home-section"> <b>UniTag</b></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home-section">Начало</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#event-essentials-section">Програма</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#event-description-section">Евент Инфо</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#speakers-section">Говорители</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#registration-section">Регистрация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#partners-section">Партньори</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-section">Контакт</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="home-section">
+            <div class="container d-flex align-items-center justify-content-center">
+                <div class="justify-content-center text-center">
+                    <div id="home-header">
+                        <h1>3ти Септември, 2018</h1>
+                        <h1>НДК, Зала 1</h1>
+                    </div>
+                    <div class="registrationButton">
+                      <a href="#registration-section" class="cool-button">Регистрирай се!</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="event-essentials-section">
+            <div class="container">
+                <div id="eventEssDiv" class="row justify-content-center">
+                    <div class="col-6 col-md-3">
+                        <div class="eventItem">
+                            <i class="fas fa-calendar eventIcon fa-fw align-text-center"></i>
+                            <div class="eventInfoHeaders">
+                                <h5>ДАТА</h5>
+                                <p>3ти Септември 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="eventItem">
+                            <i class="fas fa-map eventIcon fa-fw"></i>
+                            <div class="eventInfoHeaders">
+                                <h5>Място</h5>
+                                <p>НДК, Зала 3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="eventItem">
+                            <i class="fas fa-users eventIcon fa-fw"></i>
+                            <div class="eventInfoHeaders">
+                                <h5>Говорители</h5>
+                                <p>Студенти от чужбина</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="eventItem">
+                            <i class="fas fa-ticket-alt eventIcon fa-fw"></i>
+                            <div class="eventInfoHeaders">
+                                <h5>Билети</h5>
+                                <p>Безплатни!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="counter-section">
+            <div>
+                <div id="counterDiv" class="row justify-content-center m-0">
+                    <div id="countdownWrapper" class="justify-content-center mt-auto mb-auto">
+                        <div id="countdownDiv" class="row justify-content-center">
+                            <div class="col-6 col-md-3">
+                                <h1 id="countdownDays">
+
+                                </h1>
+                                <h4>
+                                    Days
+                                </h4>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <h1 id="countdownHours">
+
+                                </h1>
+                                <h4>
+                                    Hours
+                                </h4>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <h1 id="countdownMinutes">
+
+                                </h1>
+                                <h4>
+                                    Minutes
+                                </h4>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <h1 id="countdownSeconds">
+
+                                </h1>
+                                <h4>
+                                    Seconds
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="event-description-section">
+            <div class="row justify-content-center">
+                <div id="part1Info"class="col-5">
+
+                </div>
+                <div class="col-7 partContent">
+                    <h4>We Telecast our <br>
+                    Coffee Making Live</h4>
+                    <p>
+                        Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. magna aliqua. Ut enim ad minim.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-7 partContent">
+                    <h4>We Telecast our <br>
+                    Coffee Making Live</h4>
+                    <p>
+                        Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. magna aliqua. Ut enim ad minim.
+                    </p>
+                </div>
+                <div id="part2Info" class="col-5">
+
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div id="part3Info" class="col-5">
+
+                </div>
+                <div class="col-7 partContent">
+                    <h4>We Telecast our <br>
+                    Coffee Making Live</h4>
+                    <p>
+                        Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. magna aliqua. Ut enim ad minim.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="speakers-section">
+            <div class="container text-center">
+
+                <!--Section heading-->
+                <h2 class="section-heading h1 pt-4">Говорители</h2>
+                <!--Section description-->
+                <p class="section-description">Тук може да прочете повече информация за студентите, които ще присъстват, както и да се свържате директно с тях!</p>
+
+                <!-- Card deck -->
+                <div class="card-deck">
+                    <!-- Card -->
+                    <div class="card">
+
+                      <!-- Card image -->
+                      <div class="view overlay">
+                        <img class="card-img-top" src="/components/speakers-section/assets/niko.png" alt="Card image cap">
+                        <a href="#!">
+                          <div class="mask rgba-white-slight"></div>
+                        </a>
+                      </div>
+
+                      <!-- Card content -->
+                      <div class="card-body">
+
+                        <!-- Title -->
+                        <h4 class="card-title">Николай Николов</h4>
+                        <!-- Text -->
+                        <p class="card-text">Николай Николов учи Wirtschaftsinformatik в Техническия университет в Берлин, Германия!</p>
+                        <!-- Button -->
+                        <a href="#" class="btn btn-primary">Свържи се!</a>
+
+                      </div>
+
+                    </div>
+                    <!-- Card -->
+
+                    <!-- Card -->
+                    <div class="card">
+
+                      <!-- Card image -->
+                      <div class="view overlay">
+                        <img class="card-img-top" src="/components/speakers-section/assets/vlado.png" alt="Card image cap">
+                        <a href="#!">
+                          <div class="mask rgba-white-slight"></div>
+                        </a>
+                      </div>
+
+                      <!-- Card content -->
+                      <div class="card-body">
+
+                        <!-- Title -->
+                        <h4 class="card-title">Владислав Спасов</h4>
+                        <!-- Text -->
+                        <p class="card-text">Николай Николов учи Wirtschaftsinformatik в Техническия университет в Берлин, Германия!</p>
+                        <!-- Button -->
+                        <a href="#" class="btn btn-primary">Свържи се!</a>
+
+                      </div>
+
+                    </div>
+                    <!-- Card -->
+
+                    <!-- Card -->
+                    <div class="card">
+
+                      <!-- Card image -->
+                      <div class="view overlay">
+                        <img class="card-img-top" src="/components/speakers-section/assets/emil.png" alt="Card image cap">
+                        <a href="#!">
+                          <div class="mask rgba-white-slight"></div>
+                        </a>
+                      </div>
+
+                      <!-- Card content -->
+                      <div class="card-body">
+
+                        <!-- Title -->
+                        <h4 class="card-title">Емил Живков</h4>
+                        <!-- Text -->
+                        <p class="card-text">Николай Николов учи Wirtschaftsinformatik в Техническия университет в Берлин, Германия!</p>
+                        <!-- Button -->
+                        <a href="#" class="btn btn-primary">Свържи се!</a>
+
+                      </div>
+
+                    </div>
+                    <!-- Card -->
+
+                </div>
+
+                <!-- Card deck -->
+                <div class="card-deck pt-4 mt-4">
+                    <!-- Card -->
+                    <div class="card">
+
+                      <!-- Card image -->
+                      <div class="view overlay">
+                        <img class="card-img-top" src="/components/speakers-section/assets/niko.png" alt="Card image cap">
+                        <a href="#!">
+                          <div class="mask rgba-white-slight"></div>
+                        </a>
+                      </div>
+
+                      <!-- Card content -->
+                      <div class="card-body">
+
+                        <!-- Title -->
+                        <h4 class="card-title">Николай Николов</h4>
+                        <!-- Text -->
+                        <p class="card-text">Николай Николов учи Wirtschaftsinformatik в Техническия университет в Берлин, Германия!</p>
+                        <!-- Button -->
+                        <a href="#" class="btn btn-primary">Свържи се!</a>
+
+                      </div>
+
+                    </div>
+                    <!-- Card -->
+
+                    <!-- Card -->
+                    <div class="card">
+
+                      <!-- Card image -->
+                      <div class="view overlay">
+                        <img class="card-img-top" src="/components/speakers-section/assets/vlado.png" alt="Card image cap">
+                        <a href="#!">
+                          <div class="mask rgba-white-slight"></div>
+                        </a>
+                      </div>
+
+                      <!-- Card content -->
+                      <div class="card-body">
+
+                        <!-- Title -->
+                        <h4 class="card-title">Владислав Спасов</h4>
+                        <!-- Text -->
+                        <p class="card-text">Николай Николов учи Wirtschaftsinformatik в Техническия университет в Берлин, Германия!</p>
+                        <!-- Button -->
+                        <a href="#" class="btn btn-primary">Свържи се!</a>
+
+                      </div>
+
+                    </div>
+                    <!-- Card -->
+
+                    <!-- Card -->
+                    <div class="card">
+
+                      <!-- Card image -->
+                      <div class="view overlay">
+                        <img class="card-img-top" src="/components/speakers-section/assets/emil.png" alt="Card image cap">
+                        <a href="#!">
+                          <div class="mask rgba-white-slight"></div>
+                        </a>
+                      </div>
+
+                      <!-- Card content -->
+                      <div class="card-body">
+
+                        <!-- Title -->
+                        <h4 class="card-title">Емил Живков</h4>
+                        <!-- Text -->
+                        <p class="card-text">Николай Николов учи Wirtschaftsinformatik в Техническия университет в Берлин, Германия!</p>
+                        <!-- Button -->
+                        <a href="#" class="btn btn-primary">Свържи се!</a>
+
+                      </div>
+
+                    </div>
+                    <!-- Card -->
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="registration-section">
+            <div class="container text-center">
+                <!--Section heading-->
+                <h2 class="section-heading h1 pt-4">Регистрирай се!</h2>
+                <!--Section description-->
+                <p class="section-description">Регистрирай се за събитието, за да получаваш актуална информация за програмата, темите и говорителите, които ще са часат от събитието!</p>
+
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-8 col-xl-9 m-auto">
+                        <form id="registration-form" name="registration-form" action="register" method="POST">
+
+                            <!--Grid row-->
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form">
+                                        <input type="text" id="nameRegistration" name="nameRegistration" class="form-control">
+                                        <label for="nameRegistration" class="">Име</label>
+                                        <p class="invalidInput">
+                                            <i class="fas fa-times"></i>
+                                            Name cannot be empty!
+                                        </p>
+                                        <p class="validInput">
+                                            <i class="fas fa-check"></i>
+                                            Looks good!
+                                        </p>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form">
+                                        <input type="text" id="emailRegistration" name="emailRegistration" class="form-control">
+                                        <label for="emailRegistration" class="">Email</label>
+                                        <p class="invalidInput">
+                                            <i class="fas fa-times"></i>
+                                            Email is invalid!
+                                        </p>
+                                        <p class="validInput">
+                                            <i class="fas fa-check"></i>
+                                            Looks good!
+                                        </p>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                            </div>
+
+                        </form>
+
+                        <div id="registerSumbitDiv" class="center-on-small-only">
+                            <a class="btn btn-primary" id="sendRegistrationForm">Send</a>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+            </div>
+
+        </div>
+
+        </section>
+        <!--Section: Contact v.2-->
+
+        <section id="partners-section">
+            <div class="container m-0 p-0 justify-content-center">
+                <!--Section heading-->
+                <h2 class="section-heading h1 pt-4">Нашите Партньори!</h2>
+                <!--Section description-->
+                <p class="section-description">Благодарение на подкрепата на нашите партньори, успяваме да превърнем това събитие в едно незабравимо преживяване!</p>
+
+                <div class="row justify-content-center pl-0 pr-0 pt-5 pb-5">
+                    <div class="col-6 col-md-3">
+                        <span class="partner-span"></span>
+                        <img src="components/partners-section/assets/cocacola.png"/>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <span class="partner-span"></span>
+                        <img src="components/partners-section/assets/nike.png"/>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <span class="partner-span"></span>
+                        <img src="components/partners-section/assets/youtube.png"/>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <span class="partner-span"></span>
+                        <img src="components/partners-section/assets/google.png" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-section" class="pb-5">
+            <div class="container">
+                <!--Section heading-->
+                <h2 class="section-heading h1 pt-4">Свържи се с нас!</h2>
+                <!--Section description-->
+                <p class="section-description">Имаш въпроси? Свържи се с нас и ние ще ти помогнем! Нашият екип ще се свърже обратно с теб възможно най-бързо!</p>
+
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-12 col-md-8">
+                        <form id="contact-form" name="contact-form" action="contact" method="POST">
+
+                            <!--Grid row-->
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form">
+                                        <input type="text" id="nameContact" name="nameContact" class="form-control">
+                                        <label for="nameContact" class="">Име</label>
+                                        <p class="invalidInput">
+                                            <i class="fas fa-times"></i>
+                                            Name cannot be empty!
+                                        </p>
+                                        <p class="validInput">
+                                            <i class="fas fa-check"></i>
+                                            Looks good!
+                                        </p>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form">
+                                        <input type="text" id="emailContact" name="emailContact" class="form-control">
+                                        <label for="emailContact" class="">Email</label>
+                                        <p class="invalidInput">
+                                            <i class="fas fa-times"></i>
+                                            Email is invalid!
+                                        </p>
+                                        <p class="validInput">
+                                            <i class="fas fa-check"></i>
+                                            Looks good!
+                                        </p>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                            </div>
+                            <!--Grid row-->
+
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <input type="text" id="subjectContact" name="subjectContact" class="form-control">
+                                        <label for="subjectContact" class="">Тема</label>
+                                        <p class="invalidInput">
+                                            <i class="fas fa-times"></i>
+                                             Subject cannot be empty!
+                                        </p>
+                                        <p class="validInput">
+                                            <i class="fas fa-check"></i>
+                                            Looks good!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+
+                            <!--Grid row-->
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-12">
+
+                                    <div class="md-form">
+                                        <textarea type="text" id="messageContact" name="messageContact" rows="2" class="form-control md-textarea"></textarea>
+                                        <label for="messageContact">Съобщение</label>
+                                        <p class="invalidInput">
+                                            <i class="fas fa-times"></i>
+                                            Message cannot be empty!
+                                        </p>
+                                        <p class="validInput">
+                                            <i class="fas fa-check"></i>
+                                            Looks good!
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--Grid row-->
+
+                            <!-- <div class="center-on-small-only">
+                                <input class="btn btn-primary" type="submit" value="submit"></a>
+                            </div>
+                            <div class="status"></div> -->
+
+                        </form>
+
+                        <div id="contactSubmitDiv" class="center-on-small-only">
+                            <a class="btn btn-primary" id="sendContactButton">Send</a>
+                        </div>
+
+                        <div id="emailSentDiv" class="invisibleElement">
+                            <h3>Email has been successfully sent!</h3>
+                            <h1>Thank you very much for contacting us! We will respond to your emails soon!</h1>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div id="contactInfo" class="justify-content-md-center col-12 col-md-4 mb-auto mt-auto text-center">
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-phone fa-2x"></i>
+                                <p>+359 888 41 75 97</p>
+                            </li>
+
+                            <li><i class="fa fa-envelope fa-2x"></i>
+                                <p>nikolay.g.nik@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+        </section>
+        <!--Section: Contact v.2-->
+
+
+        <!--Footer-->
+        <footer class="page-footer font-small bg-primary pt-4">
+
+            <!--Footer Links-->
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+
+                    <!--First column-->
+                    <div class="col-12 col-md-6">
+                        <h5 class="text-uppercase">Footer Content</h5>
+                        <p>Here you can use rows and columns here to organize your footer content.</p>
+                    </div>
+                    <!--/.First column-->
+
+                    <div class="col-12 col-md-6 m-auto">
+                        <div class="registrationButton" style="text-align: center;">
+                          <a href="#registration-section" class="cool-button">Регистрирай се!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div align="center" class="social-buttons col-12">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a target="_blank" href="#" class="fab fa-2x fa-facebook-f"></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="#" class="fab fa-2x fa-twitter"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--/.Footer Links-->
+
+            <!--Copyright-->
+            <div class="footer-copyright py-3 text-center">
+                © 2018 Copyright:
+                <a target="_blank" href="https://nikolaynikolov.myportfolio.com/">Nikolay Nikolov</a>
+            </div>
+            <!--/.Copyright-->
+
+        </footer>
+        <!--/.Footer-->
+
+        <script>
+    		WebsiteInit.init();
+    	</script>
+    </body>
+</html>

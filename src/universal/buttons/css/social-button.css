@@ -1,0 +1,46 @@
+.social-buttons a, .social-buttons a:hover {
+    text-decoration: none;
+}
+
+.social-buttons, .social-buttons ul, .social-buttons li {
+    margin: 0;
+    padding: 5px;
+}
+
+.social-buttons li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social-buttons .fab {
+    color: #8CC24A;
+    background-color: white;
+    text-align: middle;
+    width: 50px;
+    height: 50px;
+    padding-top: 12px;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -o-border-radius: 100%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+}
+
+.social-buttons .fab:hover, .fa:hover, .fas:hover {
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+social-buttons

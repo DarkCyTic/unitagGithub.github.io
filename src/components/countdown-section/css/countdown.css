@@ -1,0 +1,44 @@
+#counterDiv {
+    background-image: url(../assets/counterBackground.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    background-color: black;
+}
+
+#countdownWrapper {
+    width: 100%;
+    border: 0.3px solid  #DEE2E4;
+}
+
+#countdownDiv {
+    padding: 6% 2%;
+    margin: 0px !important;
+    color: #DEE2E4;
+    text-transform: uppercase;
+}
+
+#countdownDiv div:not(:first-child) {
+    border-left: 0.7px solid  #DEE2E4;
+}
+
+#countdownDiv div #countdownDays, #countdownDiv div #countdownHours, #countdownDiv div #countdownMinutes, #countdownDiv div #countdownSeconds {
+    font-size: 80px;
+    color: white;
+    font-weight: 400;
+    margin: 0px !important;
+}
+
+@media (max-width: 768px) {
+    #countdownDays, #countdownHours, #countdownMinutes, #countdownSeconds {
+        font-size: 50px !important;
+    }
+
+    #countdownDiv div:nth-child(3) {
+        border: 0px solid red !important;
+    }
+}

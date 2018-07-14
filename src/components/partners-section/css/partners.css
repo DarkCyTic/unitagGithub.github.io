@@ -1,0 +1,19 @@
+#partners-section .row div {
+    width: 25%;
+}
+
+#partners-section .row div div {
+    margin: auto;
+}
+
+#partners-section img {
+    width: 90%;
+    vertical-align: middle;
+}
+
+.partner-span {
+    width: 0%;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}

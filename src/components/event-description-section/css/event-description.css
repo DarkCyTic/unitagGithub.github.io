@@ -1,0 +1,25 @@
+.partContent {
+    margin: auto;
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#part1Info {
+    background-image: url(../assets/part1Background.jpg);
+}
+
+#part2Info {
+    background-image: url(../assets/part2Background1.jpg);
+}
+
+#part3Info {
+    background-image: url(../assets/part3Background1.jpg);
+}
+
+#part1Info, #part2Info, #part3Info{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
