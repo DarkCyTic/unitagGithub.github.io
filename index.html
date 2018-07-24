@@ -5,7 +5,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
         <!-- CSS - Frameworks -->
 
@@ -52,60 +52,6 @@
 
     <body id="body2">
 
-        <style>
-        @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:700';
-
-        *, *::before, *::after {
-          -webkit-box-sizing: border-box;
-          -moz-box-sizing: border-box;
-          box-sizing: border-box;
-        }
-
-        .bg-primary {
-          background: #8CC24A !important;
-        }
-
-        .btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
-          background-color: #8CC24A !important;
-        }
-
-        .btn-primary {
-          background-color: #8CC24A !important;
-        }
-
-        body {
-          background-color: #000000;
-          color: #8CC24A;
-          text-align: center;
-          margin: auto;
-        }
-
-        section {
-          background-color: white;
-          width: 100%;
-        }
-
-        section .container {
-            max-width: 100% !important;
-            width: 100% !important;
-            height: 100% !important;
-        }
-
-        section .row {
-            padding-left: 8% !important;
-            padding-right: 8% !important;
-        }
-
-        .row {
-            width: 100% !important;
-        }
-
-        #contact-section .row, #registration-section .row {
-            margin: 0px;
-        }
-
-        </style>
-
         <!-- JS Frameworks -->
 
         <!-- jQuery js -->
@@ -149,7 +95,7 @@
         <script src="components/contact-section/js/contact-service.js"></script>
 
         <!-- website-init -->
-        <script src="website-init.js"></script>
+        <script src="/website-init.js"></script>
 
         <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="#home-section"> <b>UniTag</b></a>
@@ -343,7 +289,7 @@
 
                       <!-- Card image -->
                       <div class="view overlay">
-                        <img class="card-img-top" src="components/speakers-section/assets/niko.png" alt="Card image cap">
+                        <img class="card-img-top" src="/components/speakers-section/assets/niko.png" alt="Card image cap">
                         <a href="#!">
                           <div class="mask rgba-white-slight"></div>
                         </a>
@@ -369,7 +315,7 @@
 
                       <!-- Card image -->
                       <div class="view overlay">
-                        <img class="card-img-top" src="components/speakers-section/assets/vlado.png" alt="Card image cap">
+                        <img class="card-img-top" src="/components/speakers-section/assets/vlado.png" alt="Card image cap">
                         <a href="#!">
                           <div class="mask rgba-white-slight"></div>
                         </a>
@@ -395,7 +341,7 @@
 
                       <!-- Card image -->
                       <div class="view overlay">
-                        <img class="card-img-top" src="components/speakers-section/assets/emil.png" alt="Card image cap">
+                        <img class="card-img-top" src="/components/speakers-section/assets/emil.png" alt="Card image cap">
                         <a href="#!">
                           <div class="mask rgba-white-slight"></div>
                         </a>
@@ -425,7 +371,7 @@
 
                       <!-- Card image -->
                       <div class="view overlay">
-                        <img class="card-img-top" src="components/speakers-section/assets/niko.png" alt="Card image cap">
+                        <img class="card-img-top" src="/components/speakers-section/assets/niko.png" alt="Card image cap">
                         <a href="#!">
                           <div class="mask rgba-white-slight"></div>
                         </a>
@@ -451,7 +397,7 @@
 
                       <!-- Card image -->
                       <div class="view overlay">
-                        <img class="card-img-top" src="components/speakers-section/assets/vlado.png" alt="Card image cap">
+                        <img class="card-img-top" src="/components/speakers-section/assets/vlado.png" alt="Card image cap">
                         <a href="#!">
                           <div class="mask rgba-white-slight"></div>
                         </a>
@@ -477,7 +423,7 @@
 
                       <!-- Card image -->
                       <div class="view overlay">
-                        <img class="card-img-top" src="components/speakers-section/assets/emil.png" alt="Card image cap">
+                        <img class="card-img-top" src="/components/speakers-section/assets/emil.png" alt="Card image cap">
                         <a href="#!">
                           <div class="mask rgba-white-slight"></div>
                         </a>
@@ -774,37 +720,6 @@
 
         </footer>
         <!--/.Footer-->
-
-        <!-- <script>
-        const WebsiteInit = (() => {
-            return {
-                init(){
-                    (function initVM () {
-
-                    })();
-
-                    (function initDOM () {
-
-                        $(document).ready(function() {
-
-                            // Add scrollspy to <body>
-                            $('body').scrollspy({
-                                target: ".navbar",
-                                offset: 300
-                            });
-                        });
-
-                        NavigationController.init();
-                        SmoothLinkScrollingController.init();
-                        ContactController.init();
-                        CountdownController.init();
-                        PartnersController.init();
-                        RegistrationController.init();
-                    })();
-                }
-            }
-        })();
-        </script> -->
 
         <script>
     		WebsiteInit.init();

@@ -1,13 +1,15 @@
 #counterDiv {
-    background-image: url(../assets/counterBackground.jpg);
-    -webkit-background-size: cover;
+    //background-image: url(../assets/counterBackground.jpg);
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 5%; */
     width: 100%;
-    background-color: black;
+    //background-color: black;
+    color: #60CEC4;
+    margin: 15px 0px 15px 0px !important;
 }
 
 #countdownWrapper {
@@ -17,8 +19,8 @@
 
 #countdownDiv {
     padding: 6% 2%;
-    margin: 0px !important;
-    color: #DEE2E4;
+    margin: 15px 0px 15px 0px;
+    color: #60CEC4;
     text-transform: uppercase;
 }
 
@@ -28,7 +30,6 @@
 
 #countdownDiv div #countdownDays, #countdownDiv div #countdownHours, #countdownDiv div #countdownMinutes, #countdownDiv div #countdownSeconds {
     font-size: 80px;
-    color: white;
     font-weight: 400;
     margin: 0px !important;
 }

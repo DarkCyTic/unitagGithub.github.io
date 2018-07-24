@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:700';
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
 
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
@@ -7,22 +7,23 @@
 }
 
 .bg-primary {
-  background: #8CC24A !important;
+  background: #60CEC4 !important;
 }
 
 .btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
-  background-color: #8CC24A !important;
+  background-color: #60CEC4 !important;
 }
 
 .btn-primary {
-  background-color: #8CC24A !important;
+  background-color: #60CEC4 !important;
 }
 
 body {
-  background-color: #000000;
-  color: #8CC24A;
+  //background-color: #000000;
+  color: #343a40;
   text-align: center;
   margin: auto;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 section {

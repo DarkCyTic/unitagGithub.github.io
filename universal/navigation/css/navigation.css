@@ -10,11 +10,16 @@
     top: -100px;
 }
 
-.navbar.solid {
-    background-color: rgba(140, 194, 74, 0.95);
+.navbar {
+    background-color: white;
+    color: #60CEC4 !important;
     box-shadow: none !important;
     transition: background-color 1s ease 0s;
     box-shadow: 0 0 4px grey;
+}
+
+.nav-link {
+    color: #60CEC4 !important;
 }
 
 @media (min-width: 768px) {
